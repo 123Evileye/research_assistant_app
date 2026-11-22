@@ -1,0 +1,20 @@
+# Python & uv
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# 敏感配置（绝对不要提交到 Git！）
+.env
+*.env.local
+
+# 运行时数据与向量库
+backend/data/
+*.db
+*.sqlite3
+
+# IDE & 系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

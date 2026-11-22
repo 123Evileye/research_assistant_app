@@ -1,0 +1,10 @@
+[project]
+name = "research-assistant-frontend"
+version = "0.1.0"
+description = "科研助手 Flask 前端（页面登录拦截 + 角色视图 + 调用 FastAPI 联调）"
+requires-python = ">=3.10"
+dependencies = [
+    "flask>=3.0.0",
+    "requests>=2.32.0",
+    "python-dotenv>=1.0.1",
+]
